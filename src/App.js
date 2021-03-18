@@ -1,25 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React Alex
-          </a>
-        </header>
+      <img src="https://grafana-cid001287-cloud-analytics.apps-priv.atl-stg-ocp-01.cl.sec.ibm.com/render/d-solo/KU-KQ48Mk/prometheus-2-0-overview?orgId=1&refresh=30s&from=1616024853359&to=1616026653359&var-job=All&var-instance=All&var-interval=1h&panelId=29&width=1000&height=500&tz=America%2FLos_Angeles"/>
       </div>
     );
   }
